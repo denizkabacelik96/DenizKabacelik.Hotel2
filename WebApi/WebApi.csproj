@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\deniz\source\repos\DenizKabacelik.Hotel2\WebApi\WebApi.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NSwag.AspNetCore" Version="13.7.4" />
+    <PackageReference Include="NSwag.Core" Version="13.7.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DenizKabacelik.Hotel2.Business\DenizKabacelik.Hotel2.Business.csproj" />
+  </ItemGroup>
+
+</Project>

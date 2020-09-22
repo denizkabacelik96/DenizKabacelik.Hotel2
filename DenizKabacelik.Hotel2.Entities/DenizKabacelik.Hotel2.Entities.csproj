@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\deniz\source\repos\DenizKabacelik.Hotel2\DenizKabacelik.Hotel2.Entities\DenizKabacelik.Hotel2.Entities.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>
